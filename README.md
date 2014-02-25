@@ -1,6 +1,6 @@
 # Studio Melipone’s Docker container for Ruby 2.1.1
 
-The container is based on phusion/baseimage-docker and has a specific ruby version installed (version given by tag ie. ruby:2.1 for MRI 2.1.0). It is intended for local development.
+The container is based on phusion/baseimage-docker and has ruby 2.1.1 installed. It is intended for local development.
 
 Services installed and running:
 
