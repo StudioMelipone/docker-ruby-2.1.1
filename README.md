@@ -11,7 +11,7 @@ Services installed and running:
 **How it works**
 
 You rails application needs to be mounted to /rails_app or the container won’t work properly.
-You’ll need to have a `docker` directory at the root of your project. Inside this directory, create a `bundler` directory and a `run.sh` script.
+You’ll need to have a `docker` directory at the root of your project. Inside this directory, create a `bundle` directory and a `run.sh` script.
 Write any commands needed to boot your app in the `run.sh` script and know that the following commands are executed automatically before invoking the `run.sh` script:
 
  - bundle install
