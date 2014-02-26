@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM phusion/baseimage:0.9.8
 MAINTAINER Loïc Guitaut <loic@studiomelipone.eu>
 
 ENV LANG en_US.UTF-8
